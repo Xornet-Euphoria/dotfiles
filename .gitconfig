@@ -4,7 +4,7 @@
 	process = git-lfs filter-process
 	required = true
 [user]
-	name = Xornet
+	name = Xornet-Euphoria
 	email = einnotwendigesubel@gmail.com
 [core]
 	editor = vim
