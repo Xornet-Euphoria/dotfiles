@@ -10,3 +10,11 @@
 	editor = vim
 [help]
 	autocorrect = 1
+[alias]
+	a = add
+	aa = add .
+	st = status -s
+	rfl = reflog
+	ps = push
+	pl = pull
+	plr = pull --rebase
