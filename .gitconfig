@@ -20,3 +20,5 @@
 	ps = push
 	pl = pull
 	plr = pull --rebase
+[color]
+	ui = true
