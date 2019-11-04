@@ -2,6 +2,7 @@
 
 DOT_FILES=(
     .gitconfig
+    .zshrc
 )
 
 for file in ${DOT_FILES[@]}
