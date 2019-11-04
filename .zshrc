@@ -103,7 +103,7 @@ alias v="vim"
 alias vi="vim"
 alias p="python"
 alias src="source"
-
+alias objdump="objdump -M intel"
 setopt print_eight_bit
 
 autoload -Uz colors
