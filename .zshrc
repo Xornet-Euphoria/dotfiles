@@ -1,5 +1,7 @@
 # Created by newuser for 5.4.2
 
+export LANG=ja_JP.UTF-8
+
 autoload -U compinit promptinit
 compinit
 promptinit
