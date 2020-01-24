@@ -12,10 +12,19 @@ alias la='ls -A'
 alias l='ls -CF'
 
 # shorten
-alias exploit="python exploit.py"
 alias g="git"
 alias v="vim"
 alias vi="vim"
 alias p="python"
 alias src="source"
 alias pa="php artisan"
+
+# typo
+alias gst="g st"
+alias gaa="g aa"
+alias gcm="g cm"
+alias gps="g ps"
+
+# CTF
+alias exploit="python exploit.py"
+alias rp++="rp++ --unique -r 10 -f"
