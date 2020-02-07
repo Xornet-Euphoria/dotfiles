@@ -18,6 +18,7 @@ alias vi="vim"
 alias p="python"
 alias src="source"
 alias pa="php artisan"
+alias rmg="rm -r .git"
 
 # typo
 alias gst="g st"
