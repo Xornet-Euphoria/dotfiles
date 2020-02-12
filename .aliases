@@ -19,6 +19,7 @@ alias p="python"
 alias src="source"
 alias pa="php artisan"
 alias rmg="rm -r .git"
+alias objd="objdump -M intel -d"
 
 # typo
 alias gst="g st"
