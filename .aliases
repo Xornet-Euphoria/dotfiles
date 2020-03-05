@@ -20,6 +20,7 @@ alias src="source"
 alias pa="php artisan"
 alias rmg="rm -r .git"
 alias objd="objdump -M intel -d"
+alias crg="cargo"
 
 # typo
 alias gst="g st"
@@ -30,3 +31,11 @@ alias gps="g ps"
 # CTF
 alias exploit="python exploit.py"
 alias rp++="rp++ --unique -r 10 -f"
+alias test="python test.py"
+alias solve="python solve.py"
+
+# Cargo
+alias crgn="cargo new"
+alias crgb="cargo build"
+alias crgr="cargo run"
+alias crgt="cargo test"
