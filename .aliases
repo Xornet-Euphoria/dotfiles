@@ -30,8 +30,9 @@ alias gps="g ps"
 
 # CTF
 alias exploit="python exploit.py"
+alias xplt="exploit"
+alias cxplt="touch exploit.py"
 alias rp++="rp++ --unique -r 10 -f"
-alias test="python test.py"
 alias solve="python solve.py"
 
 # Cargo
