@@ -18,6 +18,10 @@ if test -d $HOME/.pyenv
     set -x PATH $PYENV_ROOT/bin $PATH
     . (pyenv init - | psub)
 end
+# go
+if test -d /usr/local/go/bin
+    set -x PATH /usr/local/go/bin $PATH
+end
 
 # alias
 if test -f $HOME/.aliases
