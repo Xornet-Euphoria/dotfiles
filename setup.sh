@@ -1,7 +1,7 @@
 #!/bin/bash
 
 DOT_FILES=(
-    .gitconfig .zshrc .config/fish/config.fish
+    .gitconfig .zshrc .config/fish/config.fish .vimrc
 )
 
 for file in ${DOT_FILES[@]}
