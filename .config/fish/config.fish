@@ -28,6 +28,10 @@ if test -f $HOME/.aliases
     source $HOME/.aliases
 end
 
+if test -f $HOME/.aliases_env
+    source $HOME/.aliases_env
+end
+
 # for bobthefish
 set -g theme_display_git_master_branch yes
 set -g theme_color_scheme dracula
