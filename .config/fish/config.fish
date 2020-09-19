@@ -23,6 +23,12 @@ if test -d /usr/local/go/bin
     set -x PATH /usr/local/go/bin $PATH
 end
 
+# java
+if test -d /opt/java/jdk-11.0.2
+    set -x JAVA_HOME /opt/java/jdk-11.0.2/
+end
+set -x PATH $JAVA_HOME/bin $PATH
+
 # alias
 if test -f $HOME/.aliases
     source $HOME/.aliases
